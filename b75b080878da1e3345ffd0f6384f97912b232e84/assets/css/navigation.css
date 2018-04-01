@@ -1,0 +1,227 @@
+/*===Menu==*/
+.menu-main ul li:hover ul {
+	height: auto;
+	right: -0px;
+	padding: 20px;
+	opacity: 1;
+	overflow: hidden;
+	-webkit-transition: left .3s ease-out 0s;
+	-moz-transition: left .3s ease-out 0s;
+	transition: left .3s ease-out 0s;
+	z-index: 99;
+}
+
+.menu-main ul > li:hover > a:before
+{
+	opacity: 1;
+	left: 0;
+	content: '';
+}
+.menu-main ul li {
+	padding: 53px 17px 17px 18px;
+}
+.menu-main > ul > li > a {
+	padding: 0px !important;
+}
+.menu-main ul  li >  a:before {
+	background-color: #000;
+	content: '';
+	height: 1px;
+	width: 100%;
+	position: absolute;
+	bottom:0%;
+	left: 100%;
+	opacity: 0;
+	transition: all 0.3s linear 0s;
+	-moz-transition: all 0.3s linear 0s;
+	-webkit-transition: all 0.3s linear 0s;
+}
+.menu-main ul li ul li a {
+	text-transform:capitalize;
+	display: inline-block;
+	color: #212121;
+	font-weight: 300;
+	min-height: 30px;
+	position: relative;
+	overflow: hidden;
+	font-style: inherit;
+	-webkit-transition: all .4s ease-in-out 0s;
+	-moz-transition: all .4s ease-in-out 0s;
+	transition: all .4s ease-in-out 0s;
+
+}
+
+.navbar-form {
+	padding: 55px 0px 52px !important;
+}
+
+@media screen and ( max-width: 1024px ){
+	.menu-main ul li {
+	padding:15px;
+	}
+	
+	.navbar-collapse .navbar-nav li > ul{
+		min-width: 250px;
+	}
+}
+@media screen and ( min-width: 767px ) {
+	
+
+	.agent-home-v1 .header h1 {
+	    padding: 55px 0 52px 20px;
+	}
+	.agent-home-v1 .navbar-collapse >.navbar-nav >li ul li:hover{
+		-webkit-transition: all .8s ease-in-out;
+		-moz-transition: all .8s ease-in-out;
+		-ms-transition: all .8s ease-in-out;
+		-o-transition: all .8s ease-in-out;
+		transition: all .8s ease-in-out;
+	}
+	.navbar-collapse .navbar-nav >li{
+		position: relative;
+	}
+	.navbar-collapse .navbar-nav >li:last-child{
+		padding-right:0;
+	}
+
+	.agent-home-v4 .navbar-collapse .navbar-nav >li{
+		position: relative;
+		padding: 0;
+	}
+	.navbar-collapse .navbar-nav li > ul{
+		visibility: hidden;
+		position: absolute;
+		top: 120%;
+		right:0;
+		opacity: 0;
+		z-index: 99;
+		border:1px solid #ccc;
+		background: #fff;
+		padding: 0;
+		min-width: 280px;
+
+	}
+
+	.navbar-collapse >.navbar-nav > li:hover >ul{
+		visibility: visible;
+		top: 100%;
+		right:-62px;
+		opacity: 1;
+		transition:all .5s;
+	}
+	.navbar-collapse >.navbar-nav >li ul li{
+		display: block;
+		padding: 5px !important;
+
+	}
+
+
+	.navbar-collapse >.navbar-nav >li ul li {
+		padding-left: 10px !important;
+	}
+
+	/* home 1 */
+	.agent-home-v1 .navbar-collapse >.navbar-nav >li ul li a {
+		color: #333;
+		font-size: 12px!important;
+	}
+	.agent-home-v1 .navbar-collapse >.navbar-nav >li ul li a:hover {
+		color: #777;
+	}
+
+	/* home 2 */
+	.agent-home-v2 .navbar-collapse >.navbar-nav >li ul li a {
+		color: #333!important;
+		font-size: 12px!important;
+	}
+	.agent-home-v2 .navbar-collapse >.navbar-nav >li ul li a:hover {
+		color: #F30 !important;
+	}
+
+	.dropdown-menu {
+		min-width: 270px !important;
+	}
+
+	.dropdown-menu > li {
+		width: 100%;
+	}
+
+	.agent-home-v4 ul.sub-menu {
+		background: #000 !important;
+		padding: 0 10px !important;
+	}
+
+	.agent-home-v4 ul.sub-menu li a {
+		color: #fff !important;	
+	}
+	.agent-home-v4 ul.sub-menu li a:hover {
+		color: #337AB7 !important;
+	}
+	.menu-toggle i {
+		display: none;
+	}
+	.agent-home-v2 .header .top-header .navbar-collapse .navbar-nav >li {
+		padding: 33px 0px 20px 20px;
+	}
+	
+}
+
+@media screen and ( max-width: 767px ) {
+	.navbar-collapse{
+    overflow-y:visible !important;
+  	}
+	.navbar-collapse >.navbar-nav >li ul.sub-menu {
+	    max-height: 0;
+	    overflow: hidden;
+	    padding-left: 10px;
+	    transform: transition(max-height 600ms linear 0ms);
+	}
+
+	.navbar-collapse >.navbar-nav >li ul.sub-menu.submenu-open {
+		max-height: 1000px;
+	}
+	.menu-main > ul > li > a{
+		line-height: 36px
+	}
+
+	.navbar-collapse >.navbar-nav >li ul.sub-menu.submenu-open + .menu-toggle i:before {
+		content: "\f106";
+	}
+
+	.navbar-collapse >.navbar-nav >li ul li:last-child {
+		border-bottom: none !important;
+	}
+
+	.navbar-collapse >.navbar-nav >li ul li a {
+		color: #333;
+		font-size: 12px!important;
+	}
+
+	.menu-toggle {
+	    position: absolute;
+	    right: 5%;
+	    top: 20px;
+	}
+
+	.menu-toggle i {
+		color: #fff;
+		font-size: 20px;
+		cursor: pointer;
+	}
+	.navbar-collapse .navbar-nav >li{
+		padding: 10px 0 10px;
+	}
+
+	.navbar-collapse .navbar-nav li >ul{ 
+		opacity: 1;
+		display: block;
+		visibility: visible;
+		position: static;
+	}
+
+	.navbar-collapse .navbar-nav li >ul li {
+		padding-left: 20px;
+		border: none;
+		list-style: none;
+	}
+}

@@ -1,0 +1,39 @@
+/*icon*/
+[class^="icons-"], [class*=" icons-"] {
+    display: inline-block;
+    *margin-right: .3em;
+    vertical-align: text-top;
+    background-image: url("../images/front/sprite.png");
+    background-position: 0;
+    background-repeat: no-repeat;
+}
+.icons-sunset,.icons-balvin,.icons-ny,.icons-gourmet,.icons-symbol,
+.icons-sunset-v2,.icons-balvin-v2,.icons-ny-v2,.icons-symbol-v2,
+.icons-ab-v2,.icons-rotate-v2,.icons-vintate-v2,.icons-mn-v2{vertical-align:middle;}
+.icons-sunset{background-position:0 -31px;width:96px;height:103px;line-height:103px;}
+.icons-balvin{background-position:-96px -31px;width:122px;height:59px;line-height:59px;}
+.icons-ny{background-position:-229px -31px;width:75px;height:75px;line-height:75px;}
+.icons-gourmet{background-position:-316px -31px;width:116px;height:103px;line-height:103px;}
+.icons-symbol{background-position:-298px -331px;width:98px;height:47px;line-height:47px;}
+/*----- Icons Agent-Home-V2-----*/
+.icons-sunset-v2{background-position:0 -145px;width:66px;height:81px;line-height:81px;}
+a:hover .icons-sunset-v2,.icons-sunset-v2:hover{background-position:0 -238px;}
+.item-slogan a:hover .icons-sunset-v2,.item-slogan .icons-sunset-v2:hover{background-position:0 -331px;}
+.icons-balvin-v2{background-position:-78px -145px;width:122px;height:59px;line-height:59px;}
+a:hover .icons-balvin-v2,.icons-balvin-v2:hover{background-position:-78px -238px;}
+.item-slogan a:hover .icons-balvin-v2,.item-slogan .icons-balvin-v2:hover{background-position:-78px -332px;}
+.icons-ny-v2{background-position:-211px -145px;width:75px;height:75px;line-height:75px;}
+a:hover .icons-ny-v2,.icons-ny-v2:hover{background-position:-211px -238px}
+.item-slogan a:hover .icons-ny-v2,.item-slogan .icons-ny-v2:hover{background-position:-211px -331px}
+.icons-symbol-v2{background-position:-298px -145px;width:98px;height:47px;line-height:47px;}
+a:hover .icons-symbol-v2,.icons-symbol-v2:hover{background-position:-298px -238px;}
+.item-slogan a:hover .icons-symbol-v2,.item-slogan .icons-symbol-v2:hover{background-position:-298px -331px;}
+.icons-ab-v2{background-position:0 -424px;width:64px;height:72px;line-height:72px;}
+a:hover .icons-ab-v2,.icons-ab-v2:hover{background-position:0 -529px;}
+.icons-rotate-v2{background-position:-71px -424px;width:93px;height:93px;line-height:93px;}
+a:hover .icons-rotate-v2,.icons-rotate-v2:hover{background-position:-71px -529px;}
+.icons-vintate-v2{background-position:-176px -424px;width:122px;height:57px;line-height:57px;}
+a:hover .icons-vintate-v2,.icons-vintate-v2:hover{background-position:-176px -529px}
+.icons-mn-v2{background-position:-310px -424px;width:74px;height:74px;line-height:74px;}
+a:hover .icons-mn-v2,.icons-mn-v2:hover{background-position:-310px -529px;}
+
