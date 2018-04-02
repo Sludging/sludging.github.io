@@ -60,6 +60,9 @@ function buildContent(articleData)
         articleData.mainImage.forEach(function(image) {
             innerArticle.innerHTML += `<img class="responsive" src="${image}" />`
         });
+
+        let articleInfo = buildArticleInfo(articleData);
+
         let sectionContent = $('.main-content')[0];
         sectionContent.innerHTML = 
         `<article class="detail-article">
@@ -89,12 +92,9 @@ function buildContent(articleData)
                     </span>
                   </li>
                 </ul>
-                <h4>Brief</h4>
-                <p>${articleData.brief}</p>
-                <h4>Overview</h4>
-                <p>${articleData.overview}</p>
-                <h4>Solution</h4>
-                <p>${articleData.solution}</p>
+                <div>
+                  ${articleInfo}
+                </div>
               </div><!--end info-detail-->
             </div>
           </div>
@@ -114,6 +114,23 @@ function buildContent(articleData)
       </div>`
 }
 
+function buildArticleInfo(articleData) {
+  let infoDiv = createNode('div');
+  if (articleData.brief !== undefined)
+    infoDiv.innerHTML += `<h4>Brief</h4>
+    <p>${articleData.brief}</p>`
+
+  if (articleData.overview !== undefined)
+  infoDiv.innerHTML += `<h4>Brief</h4>
+  <p>${articleData.overview}</p>`
+
+  if (articleData.solution !== undefined)
+  infoDiv.innerHTML += `<h4>Brief</h4>
+  <p>${articleData.solution}</p>`
+
+  return infoDiv.outerHTML;
+
+}
 
 function createNode(element, newClass) {
 	let newEle = document.createElement(element);
