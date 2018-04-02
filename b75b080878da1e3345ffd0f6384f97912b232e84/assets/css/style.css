@@ -359,3 +359,5 @@ body.hideScroll{ overflow:hidden;}
 }
 
 #supersecret input[type=password] { border:1px solid; padding:16px 12px; font-family:'latomedium'; outline:0; color:#3c323b;}
+
+footer h6 a { color: #ed4844}
