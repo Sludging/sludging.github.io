@@ -5,7 +5,7 @@
             "title": "One Sydney Harbour - Premium Apartments",
             "tags": "Web Design, UI/UX",
             "client": "LendLease",
-            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/jumeirah.html",
+            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/infopoint.html",
             "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/marie-claire.html",
             "base_url": "lendlease.html"
         },
@@ -15,7 +15,7 @@
             "tags": "Web Design, UI/UX",
             "client": "Marie Claire",
             "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/lendlease.html",
-            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/microsoft-research.html",
+            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/sgfleet.html",
             "base_url": "marie-claire.html"
         },
         {
@@ -32,7 +32,7 @@
             "title": "Online Tender System",
             "tags": "Web Design, UI/UX",
             "client": "SG Fleet",
-            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/naaya.html",
+            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/marie-claire.html",
             "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/slattery.html",
             "base_url": "sgfleet.html"
         },
@@ -115,7 +115,7 @@
             "tags": "Web Design, UI/UX",
             "client": "UNSW",
             "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/slattery.html",
-            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/wtt.html",
+            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/cbs/cbs1.html",
             "base_url": "unsw.html"
         },
         {
@@ -124,7 +124,7 @@
             "tags": "Web Design, UI/UX",
             "client": "Infopoint",
             "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/hashching.html",
-            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/jumeirah.html",
+            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/lendlease.html",
             "base_url": "infopoint.html"
         },
         {
@@ -161,7 +161,7 @@
             "title": "Component Based System",
             "tags": "Web Design, UI/UX",
             "client": "Slattery",
-            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/wtt.html",
+            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/unsw.html",
             "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/dp/egi.html",
             "base_url": "cbs1.html"
         }
