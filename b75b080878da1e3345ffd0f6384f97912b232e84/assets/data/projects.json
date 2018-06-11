@@ -15,7 +15,7 @@
             "tags": "Web Design, UI/UX",
             "client": "Marie Claire",
             "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/lendlease.html",
-            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/sgfleet.html",
+            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/ramsay.html",
             "base_url": "marie-claire.html"
         },
         {
@@ -28,12 +28,12 @@
             "base_url": "freetv.html"
         },
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/sgFleet/sgfleet_long.jpg"],
+            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/sgFleet/SGFleet1.jpg"],
             "title": "Online Tender System",
             "tags": "Web Design, UI/UX",
             "client": "SG Fleet",
-            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/marie-claire.html",
-            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/slattery.html",
+            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/ramsay.html",
+            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/unsw.html",
             "base_url": "sgfleet.html"
         },
         {
@@ -114,7 +114,7 @@
             "title": "UNSW - Student 'Navigate Me' portal",
             "tags": "Web Design, UI/UX",
             "client": "UNSW",
-            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/slattery.html",
+            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/sgfleet.html",
             "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/cbs/cbs1.html",
             "base_url": "unsw.html"
         },
@@ -156,14 +156,24 @@
                 "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268361824.png",
                 "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268361850.png",
                 "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268897399.png",
-                "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/269426365.png"
+                "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/269426365.png",
+                "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/slattery/slattery_long.jpg"
             ],
             "title": "Component Based System",
             "tags": "Web Design, UI/UX",
             "client": "Slattery",
             "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/unsw.html",
-            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/dp/egi.html",
+            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/ip/ip1.html",
             "base_url": "cbs1.html"
+        },
+        {
+            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/ramsay/ramsay.png"],
+            "title": "Portal",
+            "tags": "Web Design, UI/UX",
+            "client": "Ramsay",
+            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/marie-claire.html",
+            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/sgfleet.html",
+            "base_url": "ramsay.html"
         }
     ]
 }
