@@ -188,8 +188,8 @@
             "base_url": "ramsay.html"
         },
         {
-            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/tsob/tsob.jpg"}],
-            "title": "Portal",
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/tsob/TSOB.jpg"}],
+            "title": "Web Design, UI/UX",
             "tags": "Web Design, UI/UX",
             "client": "LendLease",
             "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/sgfleet.html",
