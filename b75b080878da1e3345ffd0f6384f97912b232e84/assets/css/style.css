@@ -154,7 +154,7 @@ header nav ul li:hover:nth-child(5) ~ span{ left:493px;}
 .portfolio .controls button + button { margin-left:2em;}
 .portfolio .controls button.active{ color:#e44441; background:#000;}
 .portfolio #Container{ font-size:0; text-align:center; }
-.portfolio #Container .mix{ display: none; width:18%; position:relative; overflow: hidden; vertical-align: top; font-size:12px; margin:0 1% 2% 1%; position:relative; color:#404040;}
+.portfolio #Container .mix{ display: none; width:13%; position:relative; overflow: hidden; vertical-align: top; font-size:12px; margin:0 2% 2% 1%; position:relative; color:#404040;}
 .portfolio #Container .mix span{ position:absolute; top: 76%; background:#fff; padding:8%; left:-1px; right:-1px; transition:all .2s cubic-bezier(0,.73,0,1.34); height:120%; text-align:left;}
 .portfolio #Container .mix span:after{content: ''; position: absolute; top: -19px; border-style: solid; border-width: 10px; border-color: transparent transparent #fff; left: 30px; transition:border-color .1s linear;}
 .portfolio #Container .mix:hover{ color:#FFF;}

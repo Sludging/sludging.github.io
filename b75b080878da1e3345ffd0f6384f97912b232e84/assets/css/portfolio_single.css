@@ -122,3 +122,8 @@
 .portfolio-bottom {
   float: right
 }
+
+.inner-info > span {
+  font-style: italic;
+  font-weight: bold;
+}

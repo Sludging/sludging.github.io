@@ -1,7 +1,7 @@
 {
     "projects" : [
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/oneSydney/one_sydney_long.jpg"],
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/oneSydney/one_sydney_long.jpg"}],
             "title": "One Sydney Harbour - Premium Apartments",
             "tags": "Web Design, UI/UX",
             "client": "LendLease",
@@ -10,7 +10,7 @@
             "base_url": "lendlease.html"
         },
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/marieclaire/marie_claire_long.jpg"],
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/marieclaire/marie_claire_long.jpg"}],
             "title": "Marie Claire - Designer Hub",
             "tags": "Web Design, UI/UX",
             "client": "Marie Claire",
@@ -19,25 +19,31 @@
             "base_url": "marie-claire.html"
         },
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/freetv/freetv_long.jpg"],
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/freetv/freetv_long.jpg"}],
             "title": "Redesign Customer Facing Website",
             "tags": "Web Design, UI/UX",
             "client": "Free TV",
-            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/bhg.html",
+            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/dpd.html",
             "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/hashching.html",
             "base_url": "freetv.html"
         },
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/sgFleet/SGFleet1.jpg"],
+            "mainImage": [ 
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/sgFleet/SGFleet__OT.png"},
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/sgFleet/1.jpg", "info": "<span>Took part in stakeholder workshops to pin-point key aspects of the existing paper-based process and desirable improvements when converting to a digital system.</span>" },
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/sgFleet/diagram.jpg", "info": "<span>Created a process flow diagram to show the cross functional roles of operator, customer, SGFleet and repairer at various stages of the product cycle.</span>"},
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/sgFleet/wireframes.jpg", "info": "<span>Created an interactive prototype and used it to gather user feedback and evolve the solution.</span>"},
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/sgFleet/designs.jpg", "info": "<span>Produced extensive components to establish a comprehensive UI Pattern Library. </span>"}
+            ],
             "title": "Online Tender System",
             "tags": "Web Design, UI/UX",
             "client": "SG Fleet",
             "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/ramsay.html",
-            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/unsw.html",
+            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/tsob.html",
             "base_url": "sgfleet.html"
         },
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/4mation/4mation_casestudy_long.jpg"],
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/4mation/4mation_casestudy_long.jpg"}],
             "title": "Case Study Design",
             "tags": "Web Design, UI/UX",
             "client": "4mation Technologies",
@@ -46,16 +52,17 @@
             "base_url": "4mation-case.html"
         },
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/bhg/bhg_long.jpg"],
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/bhg/bhg_long.jpg"}],
             "title": "Better Homes and Gardens",
             "tags": "Web Design, UI/UX",
             "client": "Better Homes and Gardens",
             "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/4mation-case.html",
-            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/freetv.html",
+            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/dpd.html",
             "base_url": "bhg.html"
         },
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/naaya/01_My_Kids.jpg", "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/naaya/02_My_Kids.jpg"],
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/naaya/01_My_Kids.jpg"}, 
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/naaya/02_My_Kids.jpg"}],
             "title": "Student Portal",
             "tags": "Web Design, UI/UX",
             "client": "Naaya",
@@ -65,7 +72,9 @@
             "base_url": "naaya.html"
         },
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/wtt/login_1.1.jpg", "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/wtt/Tagger_dashboard_concept1.1.jpg", "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/wtt/Tagger_dashboard_concept2.jpg"],
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/wtt/login_1.1.jpg"}, 
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/wtt/Tagger_dashboard_concept1.1.jpg"}, 
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/wtt/Tagger_dashboard_concept2.jpg"}],
             "title": "Walking The Talk",
             "tags": "Web Design, UI/UX",
             "client": "Walking The Talk",
@@ -77,7 +86,9 @@
             "base_url": "wtt.html"
         },
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/userdesign/8_ReviewerConsole_BidsReviewDiscussion_actions.jpg", "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/userdesign/4_Create-New-Paper-Submission.jpg", "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/userdesign/tbeuse.jpg"],
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/userdesign/8_ReviewerConsole_BidsReviewDiscussion_actions.jpg"}, 
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/userdesign/4_Create-New-Paper-Submission.jpg"},
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/userdesign/tbeuse.jpg"}],
             "title": "Microsoft Research - Conference management tool",
             "tags": "Web Design, UI/UX",
             "client": "Microsoft",
@@ -89,7 +100,8 @@
             "base_url": "microsoft-research.html"
         },
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/jumeirah/Jumeirah_Intranet_business_card_view.jpg", "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/jumeirah/Jumeirah_Intranet_Home_bg-7.jpg"],
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/jumeirah/Jumeirah_Intranet_business_card_view.jpg"}, 
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/jumeirah/Jumeirah_Intranet_Home_bg-7.jpg"}],
             "title": "Intranet Redesign",
             "tags": "Web Design, UI/UX",
             "client": "Jumeirah",
@@ -101,7 +113,7 @@
             "base_url": "jumeirah.html"
         },
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/hashching/1.jpg"],
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/hashching/1.jpg"}],
             "title": "Mortgage Platform",
             "tags": "Web Design, UI/UX",
             "client": "Hashching",
@@ -110,16 +122,16 @@
             "base_url": "hashching.html"
         },
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/unsw/unsw_long.jpg"],
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/unsw/unsw_long.jpg"}],
             "title": "UNSW - Student 'Navigate Me' portal",
             "tags": "Web Design, UI/UX",
             "client": "UNSW",
-            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/sgfleet.html",
+            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/tsob.html",
             "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/cbs/cbs1.html",
             "base_url": "unsw.html"
         },
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/infopoint/infopoint_long.png"],
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/infopoint/infopoint_long.png"}],
             "title": "Application Design",
             "tags": "Web Design, UI/UX",
             "client": "Infopoint",
@@ -128,16 +140,16 @@
             "base_url": "infopoint.html"
         },
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/4mation/4mation_careers_long.jpg"],
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/4mation/4mation_careers_long.jpg"}],
             "title": "4mation Careers Page",
             "tags": "Web Design, UI/UX",
-            "client": "4mation",
+            "client": "4mation Technologies",
             "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/sm/jrd3.html",
             "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/4mation-case.html",
             "base_url": "4mation-careers.html"
         },
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/slattery/slattery_long.jpg"],
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/slattery/slattery_long.jpg"}],
             "title": "Auctions Platform Design",
             "tags": "Web Design, UI/UX",
             "client": "Slattery",
@@ -147,17 +159,17 @@
         },
         {
             "mainImage": [
-                "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/267848221.png",
-                "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/267867381.jpg",
-                "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268088495.png",
-                "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268112059.png",
-                "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268114447.png",
-                "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268361733.png",
-                "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268361824.png",
-                "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268361850.png",
-                "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268897399.png",
-                "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/269426365.png",
-                "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/slattery/slattery_long.jpg"
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/267848221.png"},
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/267867381.jpg"},
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268088495.png"},
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268112059.png"},
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268114447.png"},
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268361733.png"},
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268361824.png"},
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268361850.png"},
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/268897399.png"},
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/cbs/sgfleet/269426365.png"},
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/slattery/slattery_long.jpg"}
             ],
             "title": "Component Based System",
             "tags": "Web Design, UI/UX",
@@ -167,13 +179,31 @@
             "base_url": "cbs1.html"
         },
         {
-            "mainImage": ["/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/ramsay/ramsay.png"],
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/ramsay/ramsay.png"}],
             "title": "Portal",
             "tags": "Web Design, UI/UX",
             "client": "Ramsay",
             "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/marie-claire.html",
             "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/sgfleet.html",
             "base_url": "ramsay.html"
+        },
+        {
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/tsob/tsob.jpg"}],
+            "title": "Portal",
+            "tags": "Web Design, UI/UX",
+            "client": "LendLease",
+            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/sgfleet.html",
+            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/unsw.html",
+            "base_url": "tsob.html"
+        },
+        {
+            "mainImage": [ { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/dpd/dpd.jpg"}],
+            "title": "Portal",
+            "tags": "Web Design, UI/UX",
+            "client": "SGFleet",
+            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/bhg.html",
+            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/freetv.html",
+            "base_url": "dpd.html"
         }
     ]
 }

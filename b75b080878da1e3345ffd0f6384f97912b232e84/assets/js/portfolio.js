@@ -58,7 +58,10 @@ function buildContent(articleData)
 {
         let innerArticle = createNode('div', 'inner-article');
         articleData.mainImage.forEach(function(image) {
-            innerArticle.innerHTML += `<img class="responsive" src="${image}" />`
+            if (image.info !== undefined) {
+              innerArticle.innerHTML += `<div class="inner-info well">${image.info}</div>` 
+            }
+            innerArticle.innerHTML += `<img class="responsive" src="${image.image}" />`
         });
 
         let articleInfo = buildArticleInfo(articleData);
