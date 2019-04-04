@@ -5,7 +5,7 @@
             "title": "One Sydney Harbour - Premium Apartments",
             "tags": "Web Design, UI/UX",
             "client": "LendLease",
-            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/hashching.html",
+            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/iSentia.html",
             "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/marie-claire.html",
             "base_url": "lendlease.html"
         },
@@ -118,7 +118,7 @@
             "tags": "Web Design, UI/UX",
             "client": "Hashching",
             "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/freetv.html",
-            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/lendlease.html",
+            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/iSentia.html",
             "base_url": "hashching.html"
         },
         {
@@ -204,6 +204,20 @@
             "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/bhg.html",
             "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/freetv.html",
             "base_url": "dpd.html"
+        },
+        {
+            "mainImage": [ 
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/isentia/1.png"},
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/isentia/2.png"},
+                { "image" : "/b75b080878da1e3345ffd0f6384f97912b232e84/assets/images/ui-ux/isentia/3.png"}
+            ],
+            "title": "Analytics",
+            "tags": "Web Design, UI/UX",
+            "client": "Isentia",
+            "prev": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/hashching.html",
+            "next": "/b75b080878da1e3345ffd0f6384f97912b232e84/portfolio/uiux/lendlease.html",
+            "base_url": "iSentia.html",
+            "solution": "Users needed a way to look at large amounts of complex data and draw conclusions from it. By using different data visualisation techniques I was able to clearly and effectively break it down in a way that makes it simple for the target audience to understand and on which to base their decisions."
         }
     ]
 }
